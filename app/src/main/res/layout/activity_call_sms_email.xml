@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Call_Sms_Email"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_margin="@dimen/_10ssp"
+        android:hint="Enter Email"
+        android:id="@+id/editTextMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="@dimen/_10ssp"
+        android:hint="Enter subject"
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="@dimen/_10ssp"
+        android:hint="Enter message"
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="@dimen/_10ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call"/>
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_margin="@dimen/_10ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS"/>
+
+    <Button
+        android:id="@+id/btn_email"
+        android:layout_margin="@dimen/_10ssp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"/>
+
+</LinearLayout>
